@@ -318,14 +318,15 @@ img{
 /* ---------- ADJUSTING RESPONSIVE IMAGE SIZE ---------- */
 /* --------------- BEGIN RESPONSIVE IMAGE ADJUST SIZES --------------- */
 
-@media only screen and (min-width: 1200px){
     img{
         width: 300px;
         max-width: 300px;
+        display: block;
     } 
 /* --------------- END RESPONSIVE IMAGE ADJUST SIZES --------------- */
 /* ---------- EXTRA LARGE SCREEN STYLES ---------- */
 /* --------------- BEGIN EXTRA LARGE SCREEN SIZES --------------- */
+@media only screen and (min-width: 1200px){
     header, footer{
         background-color: var(--orange);
         padding-left: 5%;
