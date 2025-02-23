@@ -317,12 +317,13 @@ img{
 
 /* ---------- ADJUSTING RESPONSIVE IMAGE SIZE ---------- */
 /* --------------- BEGIN RESPONSIVE IMAGE ADJUST SIZES --------------- */
-
+@supports (display: block){
     img{
         width: 300px;
         max-width: 300px;
-        display: block;
+
     } 
+}
 /* --------------- END RESPONSIVE IMAGE ADJUST SIZES --------------- */
 /* ---------- EXTRA LARGE SCREEN STYLES ---------- */
 /* --------------- BEGIN EXTRA LARGE SCREEN SIZES --------------- */
